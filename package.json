@@ -1,0 +1,25 @@
+{
+	"name": "PS4WallpaperService",
+	"version": "0.1.1",
+	"description": "a PS4 wallpaper helper server for myself",
+	"scripts": {
+		"build": "gulp",
+		"start": "node dist/server.js"
+	},
+	"main": "dist/server.js",
+	"dependencies": {
+        "express": "^4.14.0",
+        "ws": "^2.1.0",
+        "utf-8-validate": "^3.0.0",
+        "bufferutil": "^2.0.0",
+		"@reactivex/rxjs": "^5.0.0"
+	},
+	"devDependencies": {
+		"babel-core": "^6.4.5",
+        "babel-preset-es2015": "^6.3.13",
+		"gulp": "^3.9.0",
+		"gulp-babel": "^6.1.0"
+	},
+	"author": "Lostpigz",
+	"license": "MIT"
+}

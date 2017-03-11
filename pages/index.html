@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>websocket test</title>
+<style>
+	.pics { 
+		display: flex;
+		flex-flow: wrap;
+	}
+	.pics > .box {
+		border: 1px solid #ccc;
+		height: 200px;
+		margin: 10px;
+		width: 200px;
+	}
+	.pics > .box:hover {
+		border-color: #37f;
+	}
+	.pics > .box > img {
+		max-height: 100%;
+		max-width: 100%;
+	}
+</style>
+</head>
+<body>
+    <div id="pics" class="pics"></div>
+	<script src="./jquery.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
